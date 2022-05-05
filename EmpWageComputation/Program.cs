@@ -8,6 +8,8 @@ namespace EmpWageComputation
         {
             Console.WriteLine("Welcome to Employee Wage Computation");
 
+            EmpWageComputation empWageComputation = new EmpWageComputation();
+            empWageComputation.CheckEmpIsPresentOrNot();
         }
     }
 }
